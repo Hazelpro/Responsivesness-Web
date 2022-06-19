@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 18px 80px;
+    border-radius: 30px 30px;
+    border: none;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    background-color: white;
+    font-weight: 900;
+    font-size: 15px;
+    margin-left: 25cm;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #6a71999;
+}
+.content{
+    margin-top: 10%;
+}
+
+.content .btn{
+    cursor: pointer;
+    padding: 18px 80px;
+    border-radius: 30px 30px;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    margin-left: 0.01cm;
+    margin-top: 0.8cm;
+}
+.feature-img{
+    height: 83%;
+    bottom: 0;
+    right: 400px;
+    margin-left: 18cm;
+    margin-top: -10cm;
+    size-adjust: 50px;
+}
+.section2{
+    padding: 50px;
+    border: 15px solid green;
+    height: 80vh;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 180px;
+    margin-left: 170px;
+    border-radius: 30px 30px;
+    border: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+
+.section2 h1{
+    font-size: 60px;
+    font-weight: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+
+.con2{
+    margin-top: 5cm;
+}
+.con2 p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 48px;
+    margin-bottom: 15px;
+    color: black;
+    
+}
+
+.grow-img{
+    height: 83%;
+    bottom: 0;
+    right: 400px;
+    margin-left: 18cm;
+    margin-top: -10cm;
+    size-adjust: 50px;
+}
+
+
+
+
+.section3{
+    padding: 50px;
+    border: 15px solid green;
+    height: 80vh;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 180px;
+    margin-left: 170px;
+    border-radius: 30px 30px;
+    border: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+
+.section3 h1{
+    font-size: 60px;
+    font-weight: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10cm;
+    margin-bottom: 15px;
+    margin-left: 20cm;
+    color: #000000;
+}
+
+
+.con3{
+    margin-top: 5cm;
+}
+.con3 p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0cm;
+    margin-bottom: 15px;
+    margin-left: 20cm;
+    color: black;
+    
+}
+
+.flowing-img{
+    width: 800px;
+    height: 600px;
+    bottom: 0;
+    right: 400px;
+    margin-right: 18cm;
+    margin-top: -5cm;
+    
+}
+
+
+
+
+.section4{
+    padding: 50px;
+    border: 15px solid green;
+    height: 80vh;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 180px;
+    margin-left: 170px;
+    border-radius: 30px 30px;
+    border: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+
+.section4 h1{
+    font-size: 60px;
+    font-weight: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+
+.con4{
+    margin-top: 5cm;
+}
+.con4 p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 48px;
+    margin-bottom: 15px;
+    color: black;
+    
+}
+
+.your-img{
+    height: 83%;
+    bottom: 0;
+    right: 400px;
+    margin-left: 18cm;
+    margin-top: -10cm;
+    size-adjust: 50px;
+}
+
+
+#parent{position:relative}
+
+.section5{
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 15px solid green;
+    height: 30vh;
+    width: 50%;
+    margin-top: -5cm;
+    margin-left: 12cm;
+    border-radius: 30px 30px;
+    border: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+
+
+.con5{
+    align-content: center;
+}
+
+.con5 h1{
+    font-size: 32px;
+    font-weight: 200%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1cm;
+    margin-bottom: 15px;
+    margin-left: 2.5cm;
+    color: #000000;
+}
+
+
+.con5 .btn{
+    cursor: pointer;
+    padding: 20px 100px;
+    border-radius: 30px 30px;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    margin-top: 1.cm;
+    margin-left: 4cm;
+}
+
+.footer{
+    padding: 50px;
+    border: 15px solid green;
+    background-color: #1a182b;
+    background-position-y: center;
+    height: 50vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -90px;
+    margin-left: 0cm;
+    border-radius: 0px 0px;
+    border: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    margin-top: 10cm;
+    display: flex;
+
+}
+
+
+.col1{
+    margin-top: 1cm;
+}
+.col1 p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 48px;
+    margin-bottom: 15px;
+    color: rgb(255, 213, 213);
+    
+}
+
+col2{
+    margin-top: -10cm;
+    line-height: 1px;
+    
+}
+
+.col2 p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 200px;
+    margin-left: 105px;
+    margin-bottom: -160px;
+    line-height: -100px;
+    color: rgb(255, 213, 213);
+    
+}
+
+.col2 a{
+    color: white;
+}
+
+.col2 a:hover{
+    color: green;
+}
+
+col3{
+    margin-top: -10cm;
+
+}
+
+.col3 p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: -160px;
+    line-height: -100px;
+    color: rgb(255, 213, 213);
+    
+}
+
+.col3 a{
+    color: white;
+}
+.col3 a:hover{
+    color: green;
+}
+
+
+i{
+    margin: 5.5cm 0.4cm;
+    margin-left: 1cm;
+    cursor: pointer;
+}
+
+i:hover{
+    color: red;
+}
+
+.col4 p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -100px;
+    margin-left: 480px;
+    color: rgb(255, 213, 213);
+}
